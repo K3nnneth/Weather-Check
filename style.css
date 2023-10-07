@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+header {
+    background-color: grey;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}   
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+    background-color: rgb(83, 83, 94);
+    border-style: none;
+}
+
+button {
+    height: 34px;
+    width: 34px;
+    background-color: rgb(83, 83, 94);
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+.content {
+    height: 40%;
+    width: 25%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 3);
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+    margin-top: 1%;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: calc(100vh - 90px - 86px);
+    background-color:rgb(83, 83, 94);
+}
+
+.locheader {
+    font-size: 30px;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#checkbox > input {
+    width: 20px;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form > label {
+    font-size: 30px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    text-align: center;
+}
+
+.temp {
+    font-size: 30px;
+}
